@@ -1,5 +1,5 @@
 # Experiment-Design
-The original paper can be found [here](https://dl.acm.org/doi/10.1145/3523227.3546786).
+The original paper can be found [here](https://dl.acm.org/doi/10.1145/3523227.3546786) and the github-repository of the authers can be found [here](https://github.com/dilina-r/mcts-rec?tab=readme-ov-file).
 
 The mcts code from the authors has been adjusted so that it supports seeding for the pseudo random generator and outputs results in a csv format for easier usage in python. The columns of the csv are the ground_truth followed by iters1 to iters25 corresponding to the number of items a user rated also from 1 to 25. A run.sh script has been added that runs all experiments for a given seed and a schedule.sh has been added that runs all experiments for all seeds.
 
@@ -22,3 +22,9 @@ Install GNU Scientific Library [(GDL)](https://www.gnu.org/software/gsl/)
 
 # How to run
 make ./bin/mcts -t <samples per group> -n <num recommendations>
+
+# Decision tree and random forest
+The R files called decision_tree and ransom_forest cotain the code for our implementation of the decision tree algorithm and our try for a random forest algorithm. As input data we used the test files that linked in the original [github-repository of the authors](https://github.com/dilina-r/mcts-rec?tab=readme-ov-file). The output format is the same as for the mcdt-implementation.
+
+# Additional Code
+The file PlotsAndCalcuations contains the code to recreate the plots and tables from the paper as well as some additional plots, calculations and statistical tests.
