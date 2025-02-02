@@ -1,4 +1,0 @@
-This directory contains the three codes used to create our results. 
-- decision_tree contains our implementation of the decision tree algorithm
-- random_forest contains our Implemenation of a random forest algorithm
-- PlotsAndCalculations contain the codes to recreate the plots in the original paper and som statisticals tests and accuracy calculations
