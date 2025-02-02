@@ -17,18 +17,8 @@ from 4 to 32 and report results for each.
 These means and sigmas are then used to model new users as multinormal distributions in the code of the authors. They note that they do not obeserve much difference to when they use the actual ratings. We did not verify this claim.
 The following is from the original repository of the paper and should still work for installing the modified program:
 
-# mcts
-The orininal paper 
-How to set up
-Install GNU Scientific Library (GSL).
-
-Installing gsl in macOS
-
-brew install gsl
-Preprocessed Data
-The item distribution data (mean and variance) of the clusters for each dataset can be found here.
-
-The test data can be found here.
+# How to set up
+Install GNU Scientific Library [(GDL)](https://www.gnu.org/software/gsl/)
 
 # How to run
 make ./bin/mcts -t <samples per group> -n <num recommendations>
